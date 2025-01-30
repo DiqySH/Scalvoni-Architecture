@@ -57,6 +57,14 @@ nav {
     align-items: center;
 }
 
+main {
+    max-width: 100vw;
+}
+
+main > * {
+    max-width: 100%;
+}
+
 .hero {
     height: 900px;
     background: linear-gradient(180deg, #E3F8FF 18.55%, #C4E1FC 100%);
